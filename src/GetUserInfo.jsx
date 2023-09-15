@@ -18,14 +18,12 @@ const GetUserInfo = () => {
         getData();  
     },[user])
   return (
-      <div><h2>Registered Users</h2>
+      <div><h2>Employee List</h2>
           <table>
               <thead>
                   <tr>
-                      <th>FirstName</th>
-                      <th>LastName</th>
+                      <th>Name</th>
                       <th>DOB</th>
-                      <th>Study</th>
                       <th>Start Date</th>
                       <th>End Date</th>
                       <th>Current Salary</th>
@@ -37,9 +35,7 @@ const GetUserInfo = () => {
                   {user.map((user) => (
                       <tr key={user.id}>
                           <td>{user.FirstName}</td>
-                          <td>{user.LastName}</td>
                           <td>{user.DOB}</td>
-                          <td>{user.Study}</td>
                           <td>{user.StartDate}</td>
                           <td>{user.EndDate}</td>
                           <td>{user.CurrentSalary}</td>
