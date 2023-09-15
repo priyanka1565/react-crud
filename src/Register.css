@@ -1,0 +1,147 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+.main_div_main{
+    width: 1200px;
+    height: 800px;
+    position: relative;
+    border: 2px solid grey;
+}
+.main_div{
+width: 900px;
+    height: 700px;
+    position: absolute;   /* position relative to outer box */
+    top: 50%;   
+    left: 50%;
+    transform: translate(-50%, -50%); /* translate box by -50% */
+    border: 2px solid grey;
+    
+}
+.first_div{
+     align-items:center;
+    justify-content:center;
+    display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+   margin-bottom:20px;
+  
+
+}
+.first_div label{
+    margin: 5px 10px 5px 0;
+}
+.first_div input{
+  vertical-align: middle;
+  margin: 5px 10px 5px 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  
+}
+.second_div{
+     align-items:center;
+    justify-content:center;
+     display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+   margin-bottom:20px;
+
+}
+.second_div label{
+    margin: 5px 10px 5px 0;
+    
+}
+.second_div input{
+     height:20px;
+    width:50%;
+    border:2px solid red;
+  vertical-align: middle;
+  margin: 5px 10px 5px 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+.third_div select option{
+     align-items:center;
+    justify-content:center;
+     display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+   margin-bottom:20px;
+
+}
+.third_div select {
+  width: 50%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+.fourth_div{
+     align-items:center;
+    justify-content:center;
+    display:flex;
+     flex-flow: row wrap;
+  align-items: center;
+   margin-bottom:20px;
+   margin-top:20px;
+    
+}
+.fourth_div label{
+    margin: 5px 10px 5px 0;
+}
+.fourth_div input{
+  vertical-align: middle;
+  margin: 5px 10px 5px 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  
+}
+.fifth_div input{
+     align-items:center;
+    justify-content:center;
+     width: 50%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  margin-bottom:20px;
+
+}
+.fifth_div textarea{
+     width: 50%;
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+
+}
+.btn1{
+   
+    background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+ margin-right: 20px;
+ margin-top:20px
+}
+.btn2{
+     background-color: red; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 20px;
+
+}

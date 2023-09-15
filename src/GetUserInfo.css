@@ -1,0 +1,37 @@
+/* UserTable.css */
+
+/* Style for the table container */
+.user-table-container {
+    margin: 20px;
+}
+
+/* Style for the table header row */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+/* Style for the table data rows */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+/* Hover effect for table rows */
+tr:hover {
+    background-color: #ddd;
+}
