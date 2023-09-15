@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
-import "./GetUserInfo.css";
-const GetUserInfo = () => {
+import "./EmployeeList.css"
+const EmployeeList = () => {
     const [user, setUser] = useState([]);
 
     const getData = async () => {
@@ -48,4 +48,4 @@ const GetUserInfo = () => {
   )
 }
 
-export default GetUserInfo
+export default EmployeeList;
